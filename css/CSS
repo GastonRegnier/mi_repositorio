@@ -1,0 +1,364 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "recursive", sans-serif; }
+
+a {
+  text-decoration: none; }
+
+.itemindex {
+  float: left;
+  border-right: 1px solid #bbb; }
+
+.itemindex hover {
+  background-color: #111; }
+
+.linkindex hover {
+  background-color: #111; }
+
+.linknav hover {
+  text-decoration: underline; }
+
+.linkactivo {
+  text-decoration: underline;
+  color: white; }
+
+.logobarra {
+  border-radius: 20px;
+  max-width: 20px; }
+
+.titulo {
+  margin-left: 100px;
+  margin-top: 70px;
+  width: 400px;
+  height: 50px;
+  background-color: #B3ECE8;
+  border-radius: 5px; }
+
+.productos {
+  margin-top: 15px;
+  margin-left: 100px; }
+
+.tabla {
+  width: 50%;
+  padding: 30px 0;
+  margin: 20px 0 0 20px; }
+
+table {
+  border: 3px solid; }
+
+th {
+  background-color: gray;
+  border: 2px solid; }
+
+tr, td {
+  border: 1px solid; }
+
+.Proyectosbody {
+  background-color: #E7E7E7; }
+
+.tarjeta img {
+  border-radius: 30%;
+  box-shadow: 2px 2px 5px #c7c7c7;
+  width: 210px;
+  margin: 10px; }
+
+.tarjeta {
+  display: flex;
+  flex-wrap: wrap;
+  background: #FFF;
+  width: 600px;
+  height: 300px;
+  margin: 20px 40px 20px 20px;
+  border-radius: 5%; }
+
+.tarjeta a {
+  background: #A4E0D9;
+  padding: 5px 10px; }
+
+.conteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.grilla {
+  display: grid;
+  grid-template-areas: "barranavegacion"
+ "titulobigmemo"
+ "tiendaonline"
+ "contactanos";
+  grid-template-columns: 100%;
+  grid-template-rows: 50px 660px 650px 200px; }
+
+.grilla1 {
+  display: grid;
+  grid-template-areas: "barra"
+ "principal"
+ "tiendaonline";
+  grid-template-columns: 100%;
+  grid-template-rows: 22px 600px 500px; }
+
+.barranavegacion {
+  grid-area: barranavegacion; }
+
+.titulobigmemo {
+  grid-area: titulobigmemo; }
+
+.tiendaonline {
+  grid-area: tiendaonline;
+  background-color: #91B7BB; }
+
+.contactanos {
+  grid-area: contactanos; }
+
+.nombreppal {
+  margin-top: 40px;
+  margin-left: 100px;
+  color: white;
+  position: absolute;
+  z-index: 1; }
+
+.frente {
+  border-radius: 20px;
+  max-width: 80px;
+  margin-top: 20px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 1; }
+
+.frente:hover {
+  transform: scale(2, 2); }
+
+.frente1 {
+  margin-top: 370px;
+  margin-left: 30px;
+  color: white;
+  position: absolute;
+  z-index: 1; }
+
+.frente2 {
+  margin-top: 450px;
+  margin-left: 30px;
+  color: white;
+  position: absolute;
+  z-index: 1; }
+
+.color {
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  overflow: hidden;
+  position: fixed;
+  background-color: #A4E0D9;
+  opacity: 0.9;
+  z-index: 1; }
+
+.color li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 16px; }
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none; }
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px; }
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8); }
+
+.punto {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease; }
+
+.punto:hover {
+  background-color: #717171; }
+
+@media only screen and (max-width: 300px) {
+  .prev, .next, .punto {
+    font-size: 11px; } }
+
+.imagenppal {
+  margin-top: 0px;
+  width: 100%; }
+
+.redes1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #91B7BB; }
+
+.gradient {
+  background-color: grey;
+  text-align: center; }
+
+.tiendaflex {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  height: 70%;
+  margin-left: 220px;
+  background-color: #BDEAEE;
+  box-shadow: 30px 30px; }
+
+.silla {
+  margin-top: 20px;
+  height: 80%;
+  width: 80%; }
+
+.siya {
+  margin-top: 20px;
+  height: 80%;
+  width: 80%; }
+
+.mesa {
+  margin-top: 20px;
+  height: 80%;
+  width: 80%; }
+
+.silla:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.6s ease; }
+
+.siya:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.6s ease; }
+
+.mesa:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.6s ease; }
+
+.prev1, .next1 {
+  cursor: pointer;
+  position: absolute;
+  top: 100%;
+  width: auto;
+  padding: 16px;
+  margin-top: 250px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none; }
+
+.next1 {
+  right: 0;
+  border-radius: 3px 0 0 3px; }
+
+.prev1:hover, .next1:hover {
+  background-color: rgba(0, 0, 0, 0.8); }
+
+.tiendaflex1 {
+  display: flex;
+  justify-content: center;
+  width: 55%;
+  height: 55%;
+  margin-left: 25%;
+  background-color: white; }
+
+.botontienda {
+  margin-left: 250px; }
+
+.pietienda {
+  margin-top: 50px; }
+
+.pagos {
+  height: 60px;
+  margin-left: 1020px; }
+
+.metodos {
+  margin-top: -50px;
+  margin-left: 1040px; }
+
+.ventana1 {
+  margin-top: 20px;
+  margin-left: 400px;
+  width: 300px;
+  height: 110px;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  padding-left: 40px;
+  padding-right: 50px; }
+
+.ventana2 {
+  margin-top: 20px;
+  width: 180px;
+  height: 110px;
+  border-right: 1px solid black;
+  padding-right: 40px; }
+
+.ventana3 {
+  margin-top: 20px;
+  width: 110px;
+  height: 110px; }
+
+.pie {
+  display: flex;
+  justify-content: space-between; }
+
+.logopie {
+  width: 110px;
+  height: 110px;
+  margin-top: 20px;
+  margin-left: 20px; }
+
+.logopie2 {
+  width: 110px;
+  height: 110px;
+  margin-top: 20px; }
+
+.header {
+  color: #36A0FF;
+  font-size: 27px;
+  padding: 10px; }
+
+.bigicon {
+  font-size: 35px;
+  color: #36A0FF; }
+
+.container {
+  background-color: #E7E7E7; }
+
+.form-group {
+  margin-top: 20px;
+  margin-left: 20px; }
+
+.imagencontacto {
+  width: 400px;
+  height: 360px;
+  margin-top: -600px;
+  margin-left: 66%;
+  border-radius: 10px; }
+
+.container1 {
+  margin-top: -50px; }
+
+.carousel-inner {
+  max-height: 710px;
+  width: auto; }
+
+.imagencarru {
+  width: 100%;
+  height: 100%; }
