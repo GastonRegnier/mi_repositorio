@@ -87,7 +87,10 @@ tr, td {
 
 .grilla {
   display: grid;
-  grid-template-areas: "barranavegacion" "titulobigmemo" "tiendaonline" "contactanos";
+  grid-template-areas: "barranavegacion"
+ "titulobigmemo"
+ "tiendaonline"
+ "contactanos";
   grid-template-columns: 100%;
   grid-template-rows: 50px 660px 350px 200px; }
 
@@ -101,7 +104,9 @@ tr, td {
 
 .grilla1 {
   display: grid;
-  grid-template-areas: "barra" "principal" "tiendaonline";
+  grid-template-areas: "barra"
+ "principal"
+ "tiendaonline";
   grid-template-columns: 100%;
   grid-template-rows: 22px 600px 150px;
   background-color: #E7E7E7; }
@@ -368,7 +373,7 @@ tr, td {
   height: 110px;
   margin-top: 20px; }
 
-.header {
+.header1 {
   color: #36A0FF;
   font-size: 27px;
   padding: 10px; }
